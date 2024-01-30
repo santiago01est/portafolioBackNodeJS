@@ -10,7 +10,7 @@ routerSkills.get('/',async (req, res) =>{
         return res.status(200).json(result.rows);
     } catch (err) {
         console.log(err);
-        res.status(400).json({ respuesta: "Error en la consulta" });
+        res.status(400).json({ respuesta: "Error en la consulta sectors" });
     }
 })
 
